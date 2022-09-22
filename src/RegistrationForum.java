@@ -82,8 +82,8 @@
     public User user;
      private User addUserToDatabase(String name, String email, String phone, String address, String password) {
         User user = null;
-        final String DB_URL = "jdbc:mysql://localhost/MyStore?serverTimeZone=UTC";
-        final String USERNAME = "root";
+        final String DB_URL = "";
+        final String USERNAME = "";
         final String PASSWORD = "";
         try {
             Connection connection = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
